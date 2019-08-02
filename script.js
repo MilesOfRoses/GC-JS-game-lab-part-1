@@ -9,7 +9,7 @@ let begin = prompt("Do you want to play? if so, type 'yes' ");
 
 if (begin == "yes" || begin == "Yes" || begin == "YES" ) { //check different ways of typing 'yes' 
     let name = prompt("What is your name?");
-    let userHP = 35;
+    let userHP = 40;
     let botHP = 10;
     let userWins = 0; //keeps track of the user's wins
 
